@@ -1,0 +1,46 @@
+
+Model: convnext_base.fb_in22k_ft_in1k_384
+{'input_size': (3, 384, 384), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 1.0, 'crop_mode': 'squash'}
+GPUs available: 4
+
+Image Size Sat: (384, 384)
+Image Size Ground: (140, 768)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Reference Images Test: 8884
+Query Images Test: 8884
+
+Reference Images Train: 35532
+Query Images Train: 35532
+
+Scheduler: cosine - max LR: 0.001
+Warmup Epochs: 1  - Warmup Steps: 556
+Train Epochs:  1 - Train Steps:  556
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 119
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 36032 - Last Element ID: 27029
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 1.571, Lr = 0.000998
+
+------------------------------[Evaluate]------------------------------
+
+Extract Features:
+Compute Scores:
+Recall@1: 56.4836 - Recall@5: 82.4178 - Recall@10: 89.6330 - Recall@top1: 99.0882
+
+Extract Features:
+Compute Scores Train:
+Recall@1: 41.3346 - Recall@5: 66.8637 - Recall@10: 76.4522 - Recall@top1: 99.2908
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 117
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 16791 - Last Element ID: 43680
