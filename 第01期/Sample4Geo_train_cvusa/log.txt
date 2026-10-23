@@ -1,0 +1,128 @@
+
+Model: convnext_base.fb_in22k_ft_in1k_384
+{'input_size': (3, 384, 384), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 1.0, 'crop_mode': 'squash'}
+GPUs available: 4
+
+Image Size Sat: (384, 384)
+Image Size Ground: (140, 768)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Reference Images Test: 8884
+Query Images Test: 8884
+
+Reference Images Train: 35532
+Query Images Train: 35532
+
+Scheduler: cosine - max LR: 0.001
+Warmup Epochs: 1  - Warmup Steps: 556
+Train Epochs:  40 - Train Steps:  22240
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 119
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 36032 - Last Element ID: 27029
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 1.572, Lr = 0.000998
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 97
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 16791 - Last Element ID: 29742
+
+------------------------------[Epoch: 2]------------------------------
+Epoch: 2, Train Loss = 1.002, Lr = 0.000998
+
+Shuffle Dataset:
+idx_pool: 3030
+Original Length: 35532 - Length after Shuffle: 35456
+Break Counter: 1024
+Pairs left out of last batch to avoid creating noise: 76
+First Element ID: 1656 - Last Element ID: 15929
+
+------------------------------[Epoch: 3]------------------------------
+Epoch: 3, Train Loss = 0.914, Lr = 0.000994
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 227
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 12118 - Last Element ID: 974
+
+------------------------------[Epoch: 4]------------------------------
+Epoch: 4, Train Loss = 0.896, Lr = 0.000986
+
+------------------------------[Evaluate]------------------------------
+
+Extract Features:
+Compute Scores:
+Recall@1: 82.5754 - Recall@5: 95.5763 - Recall@10: 97.6812 - Recall@top1: 99.7524
+
+Extract Features:
+Compute Scores Train:
+Recall@1: 74.1022 - Recall@5: 90.7267 - Recall@10: 94.5626 - Recall@top1: 99.8931
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 4
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 15871 - Last Element ID: 7439
+
+------------------------------[Epoch: 5]------------------------------
+Epoch: 5, Train Loss = 1.551, Lr = 0.000974
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 60
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 11309 - Last Element ID: 17338
+
+------------------------------[Epoch: 6]------------------------------
+Epoch: 6, Train Loss = 1.171, Lr = 0.000960
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 69
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 9518 - Last Element ID: 2565
+
+------------------------------[Epoch: 7]------------------------------
+Epoch: 7, Train Loss = 1.078, Lr = 0.000943
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 7
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 27985 - Last Element ID: 34616
+
+------------------------------[Epoch: 8]------------------------------
+Epoch: 8, Train Loss = 1.007, Lr = 0.000923
+
+------------------------------[Evaluate]------------------------------
+
+Extract Features:
+Compute Scores:
+Recall@1: 92.9649 - Recall@5: 98.5480 - Recall@10: 99.2121 - Recall@top1: 99.8424
+
+Extract Features:
+Compute Scores Train:
+Recall@1: 90.8505 - Recall@5: 98.0187 - Recall@10: 98.9756 - Recall@top1: 99.9550
+
+Shuffle Dataset:
+idx_pool: 0
+Original Length: 35532 - Length after Shuffle: 35520
+Break Counter: 23
+Pairs left out of last batch to avoid creating noise: 12
+First Element ID: 37025 - Last Element ID: 35564
+
+------------------------------[Epoch: 9]------------------------------
